@@ -9,77 +9,186 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/additional.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/ghost.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/about-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/about-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/client-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/client-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/controller.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/facebook-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hero-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/idea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img/slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img/slide-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img/slide-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/info-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left-arrow-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left-arrow-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/linkedin-sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/monitor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right-arrow-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right-arrow-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/rocket-ship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search-icon-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/skill-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/telephone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/twitter-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertion/footer/DownFooter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertion/footer/UpFooter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertion/header/DownHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertion/header/UpHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/circles.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/star.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/portfolio.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/service.jsp" afterDir="false" />
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/Excercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/data/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/data/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/email/EmailListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/one/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/one/data/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/one/email/EmailListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/data/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/EmailListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/data/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/cart/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/cart/ProductsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/data/ProductIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/data/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/three/business/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/three/business/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/three/business/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/three/cart/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/three/data/ProductIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/business/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/data/ProductIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/data/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/one/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/one/data/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/one/email/EmailListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/two/business/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/two/controllers/SurveyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter05EX1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter05EX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter06EX1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter06EX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter07EX1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter07EX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter07EX3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter08EX1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter09EX1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter09EX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/images/murachlogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/styles/survey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/images/murachlogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/survey.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/8601_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/delete_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/jr01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf02_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/view_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/WEB-INF/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/WEB-INF/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/WEB-INF/EmailList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/8601_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/delete_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/jr01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf02_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/view_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/WEB-INF/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/particles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/additional.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/ghost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/forwarding/Chapter04EX1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/about-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/about-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/client-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/client-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/facebook-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/hero-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/idea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/img/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/img/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/img/slide-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/info-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/left-arrow-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/left-arrow-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/linkedin-sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/monitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/p-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/right-arrow-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/right-arrow-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/rocket-ship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/search-icon-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/search-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/skill-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/twitter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertion/footer/DownFooter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertion/footer/UpFooter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertion/header/DownHeader.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertion/header/UpHeader.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/circles.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/star.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/portfolio.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/service.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +198,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="SCSS File" />
+        <option value="HTML File" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -122,33 +233,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodingProjects/Java/testGradle/HihonWeb/src/main/webapp/index.html&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32068965&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CodingProjects/Java/testGradle/HihonWeb/src/main/java/me/sjihh/hihonweb/chap/nine/two",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32068965",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\java\me\sjihh\hihonweb\chap\nine\two" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\child\chap09_ex2" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\java\me\sjihh\hihonweb\chap\nine\one" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\child\chap09_ex1" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\java\me\sjihh\hihonweb\chap\eight\one" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\java\me\sjihh\hihonweb\chap\five\ex\one" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\img" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\css" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\images\img" />
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\Insertion\header" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.sjihh.hihonweb.forwarding" />
     </key>
   </component>
   <component name="RunManager">
@@ -252,11 +372,24 @@
       <workItem from="1696834582055" duration="5750000" />
       <workItem from="1696899572262" duration="3258000" />
       <workItem from="1696906004043" duration="4590000" />
-      <workItem from="1696916931905" duration="547000" />
+      <workItem from="1696916931905" duration="12512000" />
+      <workItem from="1696952383975" duration="14503000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1696917766772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696917766772</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
