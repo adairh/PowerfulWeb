@@ -9,53 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="fix css again">
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="update css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/survey.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/survey.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/8601_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/delete_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/jr01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf02_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/view_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/8601_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/delete_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/jr01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf02_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/view_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/addition.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/addition.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/particles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/particles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +198,7 @@
       <workItem from="1696916931905" duration="12512000" />
       <workItem from="1696952383975" duration="14503000" />
       <workItem from="1696984581659" duration="5433000" />
-      <workItem from="1696994485834" duration="2030000" />
+      <workItem from="1696994485834" duration="2336000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -286,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696996115995</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update css">
+      <created>1696996599437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696996599437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +260,7 @@
     <MESSAGE value="deployment" />
     <MESSAGE value="fix css" />
     <MESSAGE value="fix css again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix css again" />
+    <MESSAGE value="update css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update css" />
   </component>
 </project>
