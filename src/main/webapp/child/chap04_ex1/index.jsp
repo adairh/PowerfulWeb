@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Murach's Java Servlets and JSP</title>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap04_ex1/styles/survey.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/addition.css">
     </head>
     <body>
         <form action="survey" method="post">
@@ -40,7 +41,7 @@
                 </select>
             </p>
 
-            <input type=submit value="Submit">
+            <input class="button" type=submit value="Submit">
         </form>
     </body>
 </html>

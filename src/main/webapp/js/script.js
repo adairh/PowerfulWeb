@@ -14,7 +14,7 @@ $(document).ready(function () {
     })(jQuery);
 
     // input text for typing animation
-    $("#holder").writeText("WEB DESIGNER + FRONT-END DEVELOPER");
+    $("#holder").writeText("HCMUTE Student - 21110028");
 
     // initialize wow.js
     new WOW().init();
@@ -79,8 +79,8 @@ $(document).ready(function () {
         scrollBar: true,
         responsiveWidth: 400,
         navigation: true,
-        navigationTooltips: ["home", "about", "portfolio", "contact", "connect"],
-        anchors: ["home", "about", "portfolio", "contact", "connect"],
+        navigationTooltips: ["home", "about", "project"],
+        anchors: ["home", "about", "project"],
         menu: "#myMenu",
         fitToSection: false,
 
@@ -127,17 +127,14 @@ $(document).ready(function () {
     });
 
     // fullpage.js link navigation
-    $(document).on("click", "#skills", function () {
+    $(document).on("click", "#about", function () {
         $.fn.fullpage.moveTo(2);
     });
 
-    $(document).on("click", "#projects", function () {
+    $(document).on("click", "#project", function () {
         $.fn.fullpage.moveTo(3);
     });
 
-    $(document).on("click", "#contact", function () {
-        $.fn.fullpage.moveTo(4);
-    });
 
     // smooth scrolling
     $(function () {
