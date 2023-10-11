@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap05_ex1/styles/main.css" type="text/css"/>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/addition.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
 </head>
 <body>
     <h1>Join our email list</h1>

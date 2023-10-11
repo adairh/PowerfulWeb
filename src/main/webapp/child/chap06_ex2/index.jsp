@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Murach's Java Servlets and JSP</title>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap06_ex2/styles/main.css">
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/addition.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
     </head>
     <body>
         <form action="survey62" method="post">
