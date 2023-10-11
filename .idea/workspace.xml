@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="deployment">
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="fix css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32068965",
     "vue.rearranger.settings.migration": "true"
@@ -94,26 +97,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ROOT" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ROOT" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.93" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.93" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-20">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/HihonWeb_war_exploded" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="HihonWeb:war exploded">
+        <artifact name="ROOT:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/HihonWeb_war_exploded" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -191,7 +181,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="HihonWeb:war" />
+          <artifact name="ROOT:war" />
         </option>
       </method>
     </configuration>
@@ -209,7 +199,8 @@
       <workItem from="1696906004043" duration="4590000" />
       <workItem from="1696916931905" duration="12512000" />
       <workItem from="1696952383975" duration="14503000" />
-      <workItem from="1696984581659" duration="5135000" />
+      <workItem from="1696984581659" duration="5433000" />
+      <workItem from="1696994485834" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -225,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696989080803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix css">
+      <created>1696991748451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696991748451</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix css">
+      <created>1696991771061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696991771061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="deployment" />
+    <MESSAGE value="fix css" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix css" />
   </component>
 </project>

@@ -26,9 +26,9 @@
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-    <link rel='stylesheet' href='${pageContext.request.contextPath}/css/style.scss'>
-    <link rel='stylesheet' href='${pageContext.request.contextPath}/css/particles.css'>
-    <link rel='stylesheet' href='${pageContext.request.contextPath}/css/card.scss'>
+    <link rel='stylesheet' href="${pageContext.request.contextPath}/css/style.scss" type="text/css"/>
+    <link rel='stylesheet' href="${pageContext.request.contextPath}/css/particles.css" type="text/css"/>
+    <link rel='stylesheet' href="${pageContext.request.contextPath}/css/card.scss" type="text/css"/>
 
 
 
