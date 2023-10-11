@@ -13,6 +13,14 @@
 
     <title>HuyHoang - Personal Page</title>
 
+    <meta name="description" content="Huy Hoang website">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 
     <link rel='stylesheet' href="${pageContext.request.contextPath}/styles/style.scss" type="text/css"/>
     <link rel='stylesheet' href="${pageContext.request.contextPath}/styles/particles.css" type="text/css"/>
@@ -22,7 +30,7 @@
 
 </head>
 
-<body translate="no">
+<body>
 <!-- navbar header -->
 <div class="nav-header">
     <div class="nav-brand">
@@ -170,15 +178,13 @@
 
 </div>
 <!-- end fullpage -->
-</body>
+
 <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-<script id="rendered-js" src="${pageContext.request.contextPath}/js/script.js">
-
-</script>
+<script id="rendered-js" src="${pageContext.request.contextPath}/js/script.js"></script>
 
 
 </body>
