@@ -3,6 +3,7 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="ROOT:war" />
+      <artifact name="ROOT:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="update css">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/cssLoader.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32068965",
     "vue.rearranger.settings.migration": "true"
@@ -102,7 +100,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ROOT:war">
+        <artifact name="ROOT:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
@@ -182,7 +180,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ROOT:war" />
+          <artifact name="ROOT:war exploded" />
         </option>
       </method>
     </configuration>
@@ -201,7 +199,9 @@
       <workItem from="1696916931905" duration="12512000" />
       <workItem from="1696952383975" duration="14503000" />
       <workItem from="1696984581659" duration="5433000" />
-      <workItem from="1696994485834" duration="3906000" />
+      <workItem from="1696994485834" duration="6502000" />
+      <workItem from="1697005658055" duration="1188000" />
+      <workItem from="1697009653830" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696997034362</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update css">
+      <created>1696998669129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696998669129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
