@@ -5,7 +5,10 @@ body {
   font-weight: 400;
   font-size: 1rem;
   background: #fff;
-  background: #F5EEDC; }
+  background: #F5EEDC;
+  overflow-x: hidden;
+
+}
 
 html {
   background: #F5EEDC; }

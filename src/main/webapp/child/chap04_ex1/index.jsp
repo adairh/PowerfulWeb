@@ -1,47 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <base href="/c4e1/">
-        <meta charset="utf-8">
-        <title>Murach's Java Servlets and JSP</title>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap04_ex1/styles/survey.css">
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
-    </head>
-    <body>
-        <form action="survey" method="post">
-            <img src="${pageContext.request.contextPath}/child/chap04_ex1/images/murachlogo.jpg" alt="Murach" width="100">
-            <h1>Survey</h1>
-            <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
-            
-            <h2>Your information:</h2>
-            <label>First Name</label>
-            <input type="text" name="firstName" required><br>
-            <label>Last Name</label>
-            <input type="text" name="lastName" required><br>
-            <label>Email</label>
-            <input type="email" name="email" required><br>
-            <label>Date of Birth</label>
-            <input type="text" name="dateOfBirth"><br>
+<head>
+    <base href="/c4e1/">
+    <meta charset="utf-8">
+    <title>Murach's Java Servlets and JSP</title>
 
-            <h2>How did you hear about us?</h2>
-            <p><input type=radio name="heardFrom" value="Search Engine" checked>Search engine
-               <input type=radio name="heardFrom" value="Friend">Word of mouth
-               <input type=radio name="heardFrom" value="Social Media">Social Media
-               <input type=radio name="heardFrom" value="Other">Other</p>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-            <h2>Would you like to receive announcements about new CDs and special offers?</h2>
-            <p><input type="checkbox" name="wantsUpdates">YES, I'd like that.</p>
-            <p><input type="checkbox" name="emailOK">YES, please send me email announcements.</p>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap04_ex1/styles/survey.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
+</head>
+<body>
+<div class="container">
+    <form action="" method="post" class="mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mb-4">
+                    <img src="${pageContext.request.contextPath}/child/chap04_ex1/images/murachlogo.jpg" alt="Murach" width="100">
+                    <h1 class="h2 mt-2">Survey</h1>
+                    <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+                </div>
+            </div>
+        </div>
+        <h2>Your information:</h2>
+        <div class="row">
+            <div class="col-6 mb-3">
+                <div class="form-control">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" class="input input-alt" name="firstName" required>
+                    <span class="input-border input-border-alt"></span>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-control">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" class="input input-alt" name="lastName" required>
+                    <span class="input-border input-border-alt"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mb-3">
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input input-alt" name="email" required>
+                    <span class="input-border input-border-alt"></span>
+                </div>
+            </div>
+            <div class="col-6 mb-3">
+                <div class="form-control">
+                    <label for="dateOfBirth">Date of Birth</label>
+                    <input type="text" id="dateOfBirth" class="input input-alt" name="dateOfBirth">
+                    <span class="input-border input-border-alt"></span>
+                </div>
+            </div>
+        </div>
 
+        <h2>How did you hear about us?</h2>
+        <div class="mb-3 how-hear">
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="heardFrom" id="searchEngine" value="Search Engine" checked>
+                <label class="form-check-label" for="searchEngine">Search engine</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="heardFrom" id="wordOfMouth" value="Friend">
+                <label class="form-check-label" for="wordOfMouth">Word of mouth</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="heardFrom" id="socialMedia" value="Social Media">
+                <label class="form-check-label" for="socialMedia">Social Media</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="heardFrom" id="other" value="Other">
+                <label class="form-check-label" for="other">Other</label>
+            </div>
+        </div>
+
+        <h2>Would you like to receive announcements about new CDs and special offers?</h2>
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" name="wantsUpdates" id="wantsUpdates">
+            <label class="form-check-label" for="wantsUpdates">YES, I'd like that.</label>
+        </div>
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" name="emailOK" id="emailOK">
+            <label class="form-check-label" for="emailOK">YES, please send me email announcements.</label>
+        </div>
+
+        <div class="mb-3">
             <p>Please contact me by:
-                <select name="contactVia">
-                    <option value="Both" selected>Email or postal mail</option>
-                    <option value="Email">Email only</option>
-                    <option value="Postal Mail">Postal mail only</option>
-                </select>
             </p>
+            <select class="form-select" name="contactVia">
+                <option value="Both" selected>Email or postal mail</option>
+                <option value="Email">Email only</option>
+                <option value="Postal Mail">Postal mail only</option>
+            </select>
+        </div>
 
-            <input class="button" type=submit value="Submit">
-        </form>
-    </body>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Add Bootstrap JavaScript (jQuery and Popper.js are required) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
 </html>

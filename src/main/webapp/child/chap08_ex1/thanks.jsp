@@ -8,6 +8,9 @@
 </head>
 
 <body>
+
+    <form action="" method="get">
+
     <h1>Thanks for joining our email list</h1>
 
     <p>Here is the information that you entered:</p>
@@ -30,10 +33,9 @@
     <p>To enter another email address, click on the Back 
     button in your browser or the Return button shown 
     below.</p>
-    
-    <form action="" method="get">
+
         <input type="hidden" name="action" value="join">
-        <input type="submit" value="Return">
+        <button type="submit" class="btn btn-primary">Join Now</button>
     </form>
         
 </body>

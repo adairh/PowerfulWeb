@@ -4,7 +4,7 @@ body {
     font-size: 85%;
     margin-left: 2em;
     margin-right: 2em;
-    width: 400px;
+    text-align: center;
 }
 h1 {     
     font-size: 140%;
@@ -18,9 +18,18 @@ h2 {
 }
 label {
     float: left;
-    width: 7em;
+    min-width: 7em;
     margin-bottom: 0.5em;
+    padding-top: 0.3em;
+    padding-left: 0.5rem;
     font-weight: bold;
+}
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    /* padding-left: 1.5em; */
+    margin-bottom: 0.125rem;
+    padding: 0 1.5rem;
 }
 input[type="text"], input[type="email"] {  /* An attribute selector */
     width: 15em;

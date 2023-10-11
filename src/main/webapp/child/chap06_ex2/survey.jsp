@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<form>
     <h1>Thanks for taking our survey!</h1>
 
     <p>Here is the information that you entered:</p>
@@ -27,7 +28,7 @@
     <c:if test="${user.wantsUpdates == 'Yes'}">
         <label>Contact Via:</label>
         <span>${user.contactVia}</span>
-    </c:if>    
-    
+    </c:if>
+</form>
 </body>
 </html>
