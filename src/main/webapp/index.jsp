@@ -9,23 +9,10 @@
     <meta charset="UTF-8">
 
 
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-
-
-
 
 
     <title>HuyHoang - Personal Page</title>
 
-    <meta name="description" content="Huy Hoang website">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 
     <link rel='stylesheet' href="${pageContext.request.contextPath}/styles/style.scss" type="text/css"/>
     <link rel='stylesheet' href="${pageContext.request.contextPath}/styles/particles.css" type="text/css"/>
