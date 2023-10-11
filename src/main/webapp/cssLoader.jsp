@@ -8,4 +8,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link rel='stylesheet' href="resources/card.scss" type="text/css"/>
 <link rel='stylesheet' href="resources/particles.css" type="text/css"/>
-<link rel='stylesheet' href="resources//style.scss" type="text/css"/>
+<link rel='stylesheet' href="resources/style.scss" type="text/css"/>

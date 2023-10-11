@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="update css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cssLoader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cssLoader.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,7 @@
       <workItem from="1696984581659" duration="5433000" />
       <workItem from="1696994485834" duration="6502000" />
       <workItem from="1697005658055" duration="1188000" />
-      <workItem from="1697009653830" duration="2291000" />
+      <workItem from="1697009653830" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697012047557</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update css">
+      <created>1697012584443</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697012584443</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
