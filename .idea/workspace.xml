@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="update css">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cssLoader.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +87,11 @@
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\child\chap09_ex1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\styles" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\resources" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\img" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\java\me\sjihh\hihonweb\chap\five\ex\one" />
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\css" />
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\images\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="me.sjihh.hihonweb.forwarding" />
@@ -198,7 +201,7 @@
       <workItem from="1696916931905" duration="12512000" />
       <workItem from="1696952383975" duration="14503000" />
       <workItem from="1696984581659" duration="5433000" />
-      <workItem from="1696994485834" duration="2336000" />
+      <workItem from="1696994485834" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -249,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696996599437</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update css">
+      <created>1696996873476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696996873476</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update css">
+      <created>1696997034362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696997034362</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
