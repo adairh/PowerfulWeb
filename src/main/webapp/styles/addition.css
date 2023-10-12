@@ -6,14 +6,17 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+html, body {
+    background-color: rgb(128, 218, 167) !important;
+}
+
 form {
     --input-focus: #2d8cf0;
     --font-color: #323232;
     --font-color-sub: #666;
-    --bg-color: #fff;
     --main-color: #323232;
     padding: 20px;
-    background: #ececec;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +52,6 @@ form {
     height: 40px;
     border-radius: 100%;
     border: 2px solid var(--main-color);
-    background-color: var(--bg-color);
     box-shadow: 4px 4px var(--main-color);
     color: var(--font-color);
     font-size: 25px;
@@ -75,7 +77,6 @@ form {
     height: 40px;
     border-radius: 5px;
     border: 2px solid var(--main-color);
-    background-color: var(--bg-color);
     box-shadow: 4px 4px var(--main-color);
     font-size: 17px;
     font-weight: 600;

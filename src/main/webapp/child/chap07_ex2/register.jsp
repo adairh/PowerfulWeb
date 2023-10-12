@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap07_ex2/styles/main.css" type="text/css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
 </head>
-<body class="bg-light">
+<body>
 <div class="container mt-5">
     <h1>Download registration</h1>
     <p>To register for our downloads, enter your name and email address below. Then, click on the Submit button.</p>

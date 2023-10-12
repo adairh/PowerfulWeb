@@ -67,6 +67,7 @@
           <li><a href="#section-cv" class="nav-link">CV</a></li>
           <li><a href="#section-projects" class="nav-link">Projects</a></li>
           <li><a href="#section-exercise" class="nav-link">Exercises</a></li>
+          <li><a target="_blank" href="https://store.steampowered.com/app/1937300/Lillusion/" class="nav-link">Lillusion 🎮</a></li>
         </ul>
         <ul class="social js-clone-nav">
           <li><a href="https://www.instagram.com/phd.sjihh/"><span class="icon-instagram"></span></a></li>
@@ -77,11 +78,15 @@
     </header> 
     <main class="main-content">
 
-      <section class="site-section-hero bg-image mb-5" style="background-image: url('images/hero-min.jpg');"  data-stellar-background-ratio="0.5" id="section-home">
+      <section class="site-section-hero bg-image mb-5" style="background-image: url('images/hero-min.png');"  data-stellar-background-ratio="0.5" id="section-home">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-7 text-center">
             <h1 class=" heading text-uppercase text-white" data-aos="fade-up">Sjihh</h1>
-            <p class="lead text-white mb-4" data-aos="fade-up" data-aos-delay="100">Welcome to Huy Hoang Personal website. <br> Student ID 21110028</p>
+            <p class="lead text-white mb-4" data-aos="fade-up" data-aos-delay="100">
+              Welcome to Huy Hoang Personal website. <br>
+              Student ID 21110028<br>
+              The background image is the banner of <a target="_blank" href="https://store.steampowered.com/app/1937300/Lillusion/">my game - Lillusion</a>💪💪💪
+            </p>
             <p data-aos="fade-up" data-aos-delay="100"><a href="#section-about" class="btn btn-primary btn-md smoothscroll">Explore me!~</a></p>
           </div>
         </div>
@@ -156,7 +161,7 @@
 
                 <!-- <h2 class="heading">About</h2> -->
 
-                <h4 class="mt-5">Check out my CV if you have time 🫶</h4>
+                <h4 class="mt-5">Check out my CV if you have time 👉👈</h4>
                 <div data-aos="fade-up"  data-aos-delay="100">
                   <embed src="CV.pdf" type="application/pdf" width="100%" height="1000px" />
                 </div>

@@ -29,7 +29,7 @@ body{
 
 .hero-section{
     align-items: flex-start;
-    background-image: linear-gradient(15deg, #606f81 0%, #9bcad0 150%);
+    background-image: linear-gradient(15deg, #5a805c 0%, #57946b 150%);
     display: flex;
     min-height: 100%;
     justify-content: center;
