@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ROOT:war exploded" />
+      <artifact name="ROOT:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="Update ROOT">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hero-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/styles/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/styles/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/hero-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/62.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/72.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/81.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/92.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/92.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/addition.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/addition.css" afterDir="false" />
-    </list>
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="BIG UPDATE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -359,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697057176349</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="BIG UPDATE">
+      <created>1697079127636</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697079127636</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +352,7 @@
     <MESSAGE value="rework" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update ROOT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ROOT" />
+    <MESSAGE value="BIG UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIG UPDATE" />
   </component>
 </project>

@@ -71,7 +71,7 @@
         </ul>
         <ul class="social js-clone-nav">
           <li><a href="https://www.instagram.com/phd.sjihh/"><span class="icon-instagram"></span></a></li>
-          <li><a href="https://www.facebook.com/sjihh.152/"><span class="icon-facebook"></span></a></li>
+          <li><a href="https://www.facebook.com/phd.sjihh/"><span class="icon-facebook"></span></a></li>
           <li><a href="https://github.com/adairh"><span class="icon-github"></span></a></li>
         </ul>
       </div>
