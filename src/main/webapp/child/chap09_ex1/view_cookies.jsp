@@ -32,4 +32,5 @@ browser is sending to the current server.</p>
 <p><a href="download91?action=deleteCookies">Delete all persistent cookies</a></p>
 
 </body>
+<jsp:include page="/backButton.jsp" />
 </html>

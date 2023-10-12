@@ -23,4 +23,5 @@
         <input type="submit" value="Join Now" class="margin_left">
     </form>
 </body>
+<jsp:include page="/backButton.jsp" />
 </html>

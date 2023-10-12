@@ -36,4 +36,5 @@
 <p><a href="?action=viewCookies">View all cookies</a></p>
 
 </body>
+<jsp:include page="/backButton.jsp" />
 </html>
