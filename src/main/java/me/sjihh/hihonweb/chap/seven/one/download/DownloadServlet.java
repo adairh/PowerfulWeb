@@ -1,8 +1,8 @@
 package me.sjihh.hihonweb.chap.seven.one.download;
 
-import me.sjihh.hihonweb.chap.seven.one.business.User;
-import me.sjihh.hihonweb.chap.seven.one.data.UserIO;
-import me.sjihh.hihonweb.chap.seven.one.util.CookieUtil;
+import me.sjihh.hihonweb.chap.nine.one.business.User;
+import me.sjihh.hihonweb.chap.nine.one.data.UserIO;
+import me.sjihh.hihonweb.chap.nine.one.util.CookieUtil;
 
 import java.io.*;
 import javax.servlet.*;
@@ -12,134 +12,127 @@ import javax.servlet.http.*;
 @WebServlet("/download01")
 public class DownloadServlet extends HttpServlet {
 
+    private static final String DEFAULT_URL = "/c7e1";
+    private static final String REGISTER_URL = "/child/chap07_ex1/register.jsp";
+    private static final String DELETE_COOKIES_URL = "/child/chap07_ex1/delete_cookies.jsp";
+
     @Override
-    public void doGet(HttpServletRequest request,
-            HttpServletResponse response)
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
-
-        // get current action
         String action = request.getParameter("action");
-        if (action == null) {
-            action = "viewAlbums";  // default action
-        }
-
-        // perform action and set URL to appropriate page
-        String url = "/c7e1";
-        if (action.equals("viewAlbums")) {
-            url = "/c7e1";
-        } else if (action.equals("checkUser")) {
-            url = checkUser(request, response);
-        } else if (action.equals("viewCookies")) {
-            url = "/child/chap07_ex1/view_cookies.jsp";
-        } else if (action.equals("deleteCookies")) {
-            url = deleteCookies(request, response);
-        }
-
-        // forward to the view
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        String url = determineUrl(action, request, response);
+        forwardRequest(request, response, url);
     }
 
     @Override
-    public void doPost(HttpServletRequest request,
-            HttpServletResponse response)
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
-
         String action = request.getParameter("action");
-        
-        // perform action and set URL to appropriate page
-        String url = "/c7e1";
-        if (action.equals("registerUser")) {
+        String url = DEFAULT_URL;
+
+        if ("registerUser".equals(action)) {
             url = registerUser(request, response);
         }
 
-        // forward to the view
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        forwardRequest(request, response, url);
     }
 
-    private String checkUser(HttpServletRequest request,
-            HttpServletResponse response) {
+    private String determineUrl(String action, HttpServletRequest request, HttpServletResponse response) {
+        switch (action) {
+            case "viewAlbums":
+                return DEFAULT_URL;
+            case "checkUser":
+                return checkUser(request, response);
+            case "viewCookies":
+                return "/child/chap07_ex1/view_cookies.jsp";
+            case "deleteCookies":
+                return deleteCookies(request, response);
+            default:
+                return DEFAULT_URL;
+        }
+    }
 
+    private void forwardRequest(HttpServletRequest request, HttpServletResponse response, String url)
+            throws ServletException, IOException {
+        getServletContext().getRequestDispatcher(url).forward(request, response);
+    }
+
+    private String checkUser(HttpServletRequest request, HttpServletResponse response) {
         String productCode = request.getParameter("productCode");
         HttpSession session = request.getSession();
         session.setAttribute("productCode", productCode);
-        User user = (User) session.getAttribute("user");
+        me.sjihh.hihonweb.chap.nine.one.business.User user = (me.sjihh.hihonweb.chap.nine.one.business.User) session.getAttribute("user");
 
         String url;
-        // if User object doesn't exist, check email cookie
+
         if (user == null) {
             Cookie[] cookies = request.getCookies();
-            String emailAddress = 
-                CookieUtil.getCookieValue(cookies, "emailCookie");
+            String emailAddress = CookieUtil.getCookieValue(cookies, "emailCookie");
 
-            // if cookie doesn't exist, go to Registration page
             if (emailAddress == null || emailAddress.equals("")) {
-                url = "/child/chap07_ex1/register.jsp";
-            } 
-            // if cookie exists, create User object and go to Downloads page
-            else {
+                url = REGISTER_URL;
+            } else {
                 ServletContext sc = getServletContext();
                 String path = sc.getRealPath("/WEB-INF/EmailList.txt");
-                user = UserIO.getUser(emailAddress, path);
+                user = me.sjihh.hihonweb.chap.nine.one.data.UserIO.getUser(emailAddress, path);
                 session.setAttribute("user", user);
                 url = "/child/chap07_ex1/" + productCode + "_download.jsp";
             }
-        } 
-        // if User object exists, go to Downloads page
-        else {
+        } else {
             url = "/child/chap07_ex1/" + productCode + "_download.jsp";
         }
+
         return url;
     }
 
-    private String registerUser(HttpServletRequest request,
-            HttpServletResponse response) {
-
-         // get the user data
+    private String registerUser(HttpServletRequest request, HttpServletResponse response) {
+        // get the user data
         String email = request.getParameter("email");
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
 
         // store the data in a User object
-        User user = new User();
+        me.sjihh.hihonweb.chap.nine.one.business.User user = new User();
         user.setEmail(email);
         user.setFirstName(firstName);
         user.setLastName(lastName);
 
         // write the User object to a file
         ServletContext sc = getServletContext();
-        String path = sc.getRealPath("/WEB-INF/EmailList.txt");
-        UserIO.add(user, path);
+        String path = sc.getRealPath("/child/chap07_ex1/WEB-INF/EmailList.txt");
+        if (UserIO.add(user, path)) {
+            // store the User object as a session attribute
+            HttpSession session = request.getSession();
+            session.setAttribute("user", user);
 
-        // store the User object as a session attribute
-        HttpSession session = request.getSession();
-        session.setAttribute("user", user);
+            // add cookies for email and firstName
+            addCookie(response, "emailCookie", email);
+            addCookie(response, "firstNameCookie", firstName);
 
-        // add a cookie that stores the user's email to browser
-        Cookie c = new Cookie("userEmail", email);
-        c.setMaxAge(60 * 60 * 24 * 365 * 3); // set age to 2 years
-        c.setPath("/");                      // allow entire app to access it
-        response.addCookie(c);
+            // create and return a URL for the appropriate Download page
+            String productCode = (String) session.getAttribute("productCode");
+            return "/child/chap09_ex1/" + productCode + "_download.jsp";
+        } else {
+            // Handle the case where user registration fails (e.g., writing to file fails)
+            // You might want to redirect to an error page or handle it according to your application's logic.
+            return "/errorPage.jsp";
+        }
+    }
 
-        // create and return a URL for the appropriate Download page
-        String productCode = (String) session.getAttribute("productCode");
-        String url = "/child/chap07_ex1/" + productCode + "_download.jsp";
-        return url;
-   }
+    private void addCookie(HttpServletResponse response, String name, String value) {
+        Cookie cookie = new Cookie(name, value);
+        cookie.setMaxAge(60 * 60 * 24 * 365 * 2); // set age to 2 years
+        cookie.setPath("/");                      // allow entire app to access it
+        response.addCookie(cookie);
+    }
 
-    private String deleteCookies(HttpServletRequest request,
-            HttpServletResponse response) {
-
+    private String deleteCookies(HttpServletRequest request, HttpServletResponse response) {
         Cookie[] cookies = request.getCookies();
         for (Cookie cookie : cookies) {
-            cookie.setMaxAge(0); //delete the cookie
-            cookie.setPath("/"); //allow the download application to access it
+            cookie.setMaxAge(0); // delete the cookie
+            cookie.setPath("/"); // allow the download application to access it
             response.addCookie(cookie);
         }
-        String url = "/child/chap07_ex1/delete_cookies.jsp";
-        return url;
+        return DELETE_COOKIES_URL;
     }
 }

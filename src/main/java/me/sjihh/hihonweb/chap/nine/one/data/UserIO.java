@@ -7,17 +7,9 @@ import java.util.*;
 
 
 public class UserIO {
-
     public static boolean add(User user, String filepath) {
-        try {
-            File file = new File(filepath);
-            PrintWriter out = new PrintWriter(
-                    new FileWriter(file, true));
-            out.println(user.getEmail() + "|"
-                    + user.getFirstName() + "|"
-                    + user.getLastName());
-
-            out.close();
+        try (PrintWriter out = new PrintWriter(new FileWriter(filepath, true))) {
+            out.println(user.getEmail() + "|" + user.getFirstName() + "|" + user.getLastName());
             return true;
         } catch (IOException e) {
             e.printStackTrace();
@@ -26,52 +18,28 @@ public class UserIO {
     }
 
     public static User getUser(String email, String filepath) {
-        try {
-            File file = new File(filepath);
-            BufferedReader in = new BufferedReader(
-                    new FileReader(file));
+        try (BufferedReader in = new BufferedReader(new FileReader(filepath))) {
             User user = new User();
-            String line = in.readLine();
-            while (line != null) {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                if (t.countTokens() < 3) {
-                    return new User("", "", "");
-                }
-                String token = t.nextToken();
-                if (token.equalsIgnoreCase(email)) {
-                    String firstName = t.nextToken();
-                    String lastName = t.nextToken();
-                    user.setEmail(email);
-                    user.setFirstName(firstName);
-                    user.setLastName(lastName);
-                }
-                line = in.readLine();
-            }
-            in.close();
-            return user;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
+            String line;
 
-    public static ArrayList<User> getUsers(String filepath) {
-        try {
-            ArrayList<User> users = new ArrayList<User>();
-            BufferedReader in = new BufferedReader(
-                    new FileReader(filepath));
-            String line = in.readLine();
-            while (line != null) {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                String email = t.nextToken();
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                User user = new User(firstName, lastName, email);
-                users.add(user);
-                line = in.readLine();
+            while ((line = in.readLine()) != null) {
+                String[] tokens = line.split("\\|");
+
+                if (tokens.length >= 3) {
+                    String token = tokens[0];
+                    if (token.equalsIgnoreCase(email)) {
+                        String firstName = tokens[1];
+                        String lastName = tokens[2];
+                        user.setEmail(email);
+                        user.setFirstName(firstName);
+                        user.setLastName(lastName);
+                        return user;
+                    }
+                }
             }
-            in.close();
-            return users;
+
+            // If the email is not found or the line format is incorrect
+            return new User("", "", "");
         } catch (IOException e) {
             e.printStackTrace();
             return null;

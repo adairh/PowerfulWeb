@@ -7,37 +7,27 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-@WebServlet("/test")
+@WebServlet("/testServlet")
 public class TestServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request, 
-            HttpServletResponse response)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        processRequest(request, response, "TestServlet Post");
+    }
 
-        response.setContentType("text/html");        
-        PrintWriter out = response.getWriter();        
-        try {
-            out.println("<h1>TestServlet Post</h1>");
-        } 
-        finally {
-            out.close();
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        processRequest(request, response, "TestServlet Get");
+    }
+
+    private void processRequest(HttpServletRequest request, HttpServletResponse response, String message)
+            throws IOException {
+        response.setContentType("text/html");
+
+        try (PrintWriter out = response.getWriter()) {
+            out.println("<h1>" + message + "</h1>");
         }
     }
-    
-    @Override
-    protected void doGet(HttpServletRequest request, 
-            HttpServletResponse response)
-            throws ServletException, IOException {
-
-        response.setContentType("text/html");        
-        PrintWriter out = response.getWriter();        
-        try {
-            out.println("<h1>TestServlet Get</h1>");
-        } 
-        finally {
-            out.close();
-        }
-    }    
 }

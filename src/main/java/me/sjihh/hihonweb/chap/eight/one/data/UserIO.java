@@ -7,79 +7,46 @@ import java.util.*;
 
 public class UserIO {
 
-    public static void addRecord(User user, String filename) throws IOException {
-        File file = new File(filename);
-        PrintWriter out = new PrintWriter(
-                new FileWriter(file, true));
-        out.println(user.getEmail() + "|"
-                + user.getFirstName() + "|"
-                + user.getLastName());
-        out.close();
-    }
-
-    public static User getUser(String emailAddress, String filename) throws IOException {
-        File file = new File(filename);
-        BufferedReader in = new BufferedReader(
-                new FileReader(file));
-        User user = new User();
-        String line = in.readLine();
-        while (line != null) {
-            StringTokenizer t = new StringTokenizer(line, "|");
-            String email = t.nextToken();
-            if (email.equalsIgnoreCase(emailAddress)) {
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                user.setEmail(emailAddress);
-                user.setFirstName(firstName);
-                user.setLastName(lastName);
-            }
-            line = in.readLine();
-        }
-        in.close();
-        return user;
-    }
 
     public static ArrayList<User> getUsers(String filename) throws IOException {
-        ArrayList<User> users = new ArrayList<User>();
-        BufferedReader in = new BufferedReader(
-                new FileReader(filename));
-        String line = in.readLine();
-        while (line != null) {
-            try {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                String emailAddress = t.nextToken();
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                User user = new User(firstName, lastName, emailAddress);
-                users.add(user);
-                line = in.readLine();
-            } catch (NoSuchElementException e) {
-                line = in.readLine();
+        ArrayList<User> users = new ArrayList<>();
+
+        try (BufferedReader in = new BufferedReader(new FileReader(filename))) {
+            String line;
+
+            while ((line = in.readLine()) != null) {
+                User user = parseUser(line);
+                if (user != null) {
+                    users.add(user);
+                }
             }
         }
-        in.close();
+
         return users;
     }
 
-    public static HashMap<String, User> getUsersMap(String filename) throws IOException {
-        HashMap<String, User> users = new HashMap<String, User>();
-        BufferedReader in = new BufferedReader(
-                new FileReader(filename));
-        String line = in.readLine();
-        while (line != null) {
-            try {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                String emailAddress = t.nextToken();
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                User user = new User(firstName, lastName, emailAddress);
-                users.put(emailAddress, user);
-                line = in.readLine();
-            } catch (NoSuchElementException e) {
-                line = in.readLine();
-            }
+    private static User parseUser(String line) {
+        try {
+            StringTokenizer tokenizer = new StringTokenizer(line, "|");
+
+            String emailAddress = getNextToken(tokenizer);
+            String firstName = getNextToken(tokenizer);
+            String lastName = getNextToken(tokenizer);
+
+            return new User(firstName, lastName, emailAddress);
+        } catch (NoSuchElementException | IllegalArgumentException e) {
+            // Handle or log the exception if needed
+            return null;
         }
-        in.close();
-        return users;
     }
+
+    private static String getNextToken(StringTokenizer tokenizer) {
+        if (tokenizer.hasMoreTokens()) {
+            return tokenizer.nextToken();
+        } else {
+            throw new IllegalArgumentException("Invalid input format");
+        }
+    }
+
+
 }
