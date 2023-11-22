@@ -8,10 +8,10 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-@WebServlet("/emailList01")
+@WebServlet("/emailList02")
 public class EmailListServlet extends HttpServlet {
 
-    private static final String DEFAULT_URL = "/c5e1";
+    private static final String DEFAULT_URL = "/c5e2";
     private static final String JOIN_ACTION = "join";
     private static final String ADD_ACTION = "add";
 
@@ -39,7 +39,7 @@ public class EmailListServlet extends HttpServlet {
     }
 
     private String determineUrl(String action) {
-        return action.equals(JOIN_ACTION) ? DEFAULT_URL : "/child/chap05_ex1/thanks.jsp";
+        return action.equals(JOIN_ACTION) ? DEFAULT_URL : "/child/chap05_ex2/thanks.jsp";
     }
 
     private void handleAction(String action, HttpServletRequest request, String url) {

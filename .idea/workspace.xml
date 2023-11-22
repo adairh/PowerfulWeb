@@ -9,18 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="minor UPDATE for UX">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/data/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/eight/one/email/EmailListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/one/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/one/email/EmailListServlet.java" afterDir="false" />
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/EmailListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/TestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/data/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/one/download/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/one/data/UserIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Hoang" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -78,6 +73,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32068965",
@@ -228,6 +224,7 @@
       <workItem from="1700501658500" duration="599000" />
       <workItem from="1700521047171" duration="1921000" />
       <workItem from="1700586179171" duration="4215000" />
+      <workItem from="1700612424261" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -376,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697086302749</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refactor">
+      <created>1700612490373</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700612490373</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +397,7 @@
     <MESSAGE value="Update ROOT" />
     <MESSAGE value="BIG UPDATE" />
     <MESSAGE value="minor UPDATE for UX" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor UPDATE for UX" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
