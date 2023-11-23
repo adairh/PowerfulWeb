@@ -1,16 +1,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <base href="/c6e2/">
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn Personal Java Servlet Web</title>
 
-    <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap06_ex2/styles/main.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
+
 </head>
 <body>
 <div class="container">
@@ -89,8 +89,7 @@
         </div>
 
         <div class="mb-3">
-            <p>Please contact me by:
-            </p>
+            <p>Please contact me by:</p>
             <select class="form-select" name="contactVia">
                 <option value="Both" selected>Email or postal mail</option>
                 <option value="Email">Email only</option>
@@ -102,10 +101,11 @@
     </form>
 </div>
 
-<!-- Add Bootstrap JavaScript (jQuery and Popper.js are required) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-</body>
+
+
 <jsp:include page="/backButton.jsp" />
+</body>
 </html>

@@ -9,8 +9,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="refactor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/five/two/email/EmailListServlet.java" afterDir="false" />
+    <list default="true" id="1d862f23-0a87-4945-bef5-ba88f5cb711a" name="Changes" comment="more update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/business/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/cart/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/nine/two/cart/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/seven/two/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/one/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/one/email/EmailListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/two/controllers/SurveyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sjihh/hihonweb/chap/six/two/controllers/SurveyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap04_ex1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex1/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap05_ex2/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex1/includes/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/survey.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap06_ex2/survey.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/8601_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/delete_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/jr01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/pf02_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex1/view_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/download/8601_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/WEB-INF/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/WEB-INF/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/cookie/delete_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/download/jr01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/download/pf01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/download/pf02_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex2/cookie/view_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap07_ex3/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap08_ex1/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/8601_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/delete_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/jr01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/pf02_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex1/view_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/WEB-INF/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/WEB-INF/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/child/chap09_ex2/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +109,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Learning/3rdYear/SemI/ItPro/HoangHaLuxurySpa",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.32068965",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learning/3rdYear/SemI/ItPro/HoangHaLuxurySpa&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32068965&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\images" />
@@ -90,11 +139,11 @@
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\child\chap07_ex2\cookie" />
+      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\child\chap07_ex2\download" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\archieve" />
       <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\styles" />
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\resources" />
-      <recent name="D:\CodingProjects\Java\testGradle\HihonWeb\src\main\webapp\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="me.sjihh.hihonweb" />
@@ -225,6 +274,8 @@
       <workItem from="1700521047171" duration="1921000" />
       <workItem from="1700586179171" duration="4215000" />
       <workItem from="1700612424261" duration="304000" />
+      <workItem from="1700622620220" duration="6531000" />
+      <workItem from="1700668249646" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1696917766772</created>
@@ -398,6 +449,7 @@
     <MESSAGE value="BIG UPDATE" />
     <MESSAGE value="minor UPDATE for UX" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="more update" />
+    <option name="LAST_COMMIT_MESSAGE" value="more update" />
   </component>
 </project>

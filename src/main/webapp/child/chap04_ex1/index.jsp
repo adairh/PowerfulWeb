@@ -3,7 +3,7 @@
 <head>
     <base href="/c4e1/">
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn personal Java Servlet web</title>
 
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

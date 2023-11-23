@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn personal Java Servlet web</title>
 
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -13,32 +13,31 @@
 <body>
 
 <div class="container mt-5">
-    <h1 class="display-4">Downloads</h1>
+    <h1 class="display-4">Cookies</h1>
 
-    <h2>${product.description}</h2>
+    <p>Here's a table with all of the cookies that this browser is sending to the current server.</p>
 
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <table class="table table-striped">
         <thead>
         <tr>
-            <th>Song title</th>
-            <th>Audio Format</th>
+            <th>Name</th>
+            <th>Value</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>You Are a Star</td>
-            <td><a href="/musicStore/sound/${product.code}/star.mp3" class="btn btn-primary">MP3</a></td>
-        </tr>
-        <tr>
-            <td>Don't Make No Difference</td>
-            <td><a href="/musicStore/sound/${product.code}/no_difference.mp3" class="btn btn-primary">MP3</a></td>
-        </tr>
+        <c:forEach var="c" items="${cookie}">
+            <tr>
+                <td>${c.value.name}</td>
+                <td>${c.value.value}</td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 
-    <p><a href="?action=viewAlbums" class="btn btn-secondary">View list of albums</a></p>
+    <p><a href="download02?action=viewAlbums" class="btn btn-primary">View list of albums</a></p>
 
-    <p><a href="?action=viewCookies" class="btn btn-secondary">View all cookies</a></p>
+    <p><a href="download02?action=deleteCookies" class="btn btn-secondary">Delete all persistent cookies</a></p>
 </div>
 
 <!-- Add Bootstrap JavaScript (jQuery and Popper.js are required) -->

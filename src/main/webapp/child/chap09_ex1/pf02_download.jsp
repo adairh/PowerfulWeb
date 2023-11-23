@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn personal Java Servlet web</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/child/chap09_ex1/styles/main.css" type="text/css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/addition.css">
 </head>

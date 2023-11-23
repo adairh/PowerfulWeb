@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Murach's Java Servlets and JSP</title>
+  <title>Hihonn personal Java Servlet web</title>
 
   <!-- Link to Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
       <c:forEach var="item" items="${cart.items}">
         <tr>
           <td>
-            <form action="" method="post">
+            <form action="" method="get">
               <input type="hidden" name="productCode" value="<c:out value='${item.product.code}'/>">
               <input type="text" name="quantity" value="<c:out value='${item.quantity}'/>" class="form-control" id="quantity" style="min-width: 3rem;">
               <button type="submit" class="btn btn-primary">Update</button>
@@ -49,8 +49,14 @@
       </c:forEach>
     </c:if>
 
+
   </table>
 
+  <b>Total price for this cart:
+
+    ${cart.totalPrice()}
+
+  </b>
   <p><b>To change the quantity</b>, enter the new quantity and click on the Update button.</p>
 
   <form action="" method="post">

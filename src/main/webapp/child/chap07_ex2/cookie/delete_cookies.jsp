@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn personal Java Servlet web</title>
 
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -13,30 +13,11 @@
 <body>
 
 <div class="container mt-5">
-    <h1 class="display-4">Downloads</h1>
+    <h1 class="display-4">Cookies</h1>
 
-    <h2>${product.description}</h2>
+    <p>All persistent cookies have been removed from this browser.</p>
 
-    <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>Song title</th>
-            <th>Audio Format</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Neon Lights</td>
-            <td><a href="/musicStore/sound/${product.code}/neon.mp3" class="btn btn-primary">MP3</a></td>
-        </tr>
-        <tr>
-            <td>Tank Hill</td>
-            <td><a href="/musicStore/sound/${product.code}/tank.mp3" class="btn btn-primary">MP3</a></td>
-        </tr>
-        </tbody>
-    </table>
-
-    <p><a href="?action=viewAlbums" class="btn btn-secondary">View list of albums</a></p>
+    <p><a href="download02?action=viewAlbums" class="btn btn-primary">View list of albums</a></p>
 
     <p><a href="?action=viewCookies" class="btn btn-secondary">View all cookies</a></p>
 </div>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
+    <title>Hihonn personal Java Servlet web</title>
 
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -34,6 +34,27 @@
                     </form>
                 </td>
             </tr>
+            <%--<div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <a target="_blank" href="" class="d-block photo-item">
+
+                    <img src="" alt="Image" class="img-fluid mb-0">
+                    <div class="photo-text-more">
+                      <span class="icon icon-eye">
+                        <h3 class="card-title"><c:out value='${product.description}'/></h3>
+                          <div class="card-body">
+                              <h4>
+                                  <c:out value='${product.description}'/>
+                                  ${product.priceCurrencyFormat}
+                                  <form action="cart92" method="post">
+                                    <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
+                                    <button type="submit" class="btn btn-primary">Add To Cart</button>
+                                </form>
+                              </h4>
+                          </div>
+                      </span>
+                    </div>
+                </a>
+            </div>--%>
         </c:forEach>
     </table>
 </div>
